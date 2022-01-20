@@ -27,7 +27,7 @@ spec:
       pin_client: "$client"
       multus:
         enabled: false
-      samples: 3
+      samples: 1
       pair: ${pairs}
       nthrs:
         - 1
@@ -39,6 +39,4 @@ spec:
         - rr
       sizes:
         - 64
-        - 1024
-        - 16384
       runtime: 60
